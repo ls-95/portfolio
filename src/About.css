@@ -1,0 +1,28 @@
+.About {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 20px;
+}
+
+.About h2 {
+  margin-bottom: 60px;
+}
+
+.About .text-section {
+  padding-right: 20px;
+  font-weight: 300;
+}
+
+.About img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+@media (max-width: 1200px) {
+  .About {
+    padding: 20px;
+  }
+}
