@@ -1,0 +1,35 @@
+.Homepage {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+}
+
+.Homepage h1 {
+  font-size: 72px;
+}
+
+.Homepage h3 {
+  font-size: 43px;
+}
+
+.Homepage p {
+  font-size: 18px;
+}
+
+@media (max-width: 992px) {
+  .Homepage h1 {
+    font-size: 48px;
+  }
+
+  .Homepage h3 {
+    font-size: 29px;
+  }
+
+  .Homepage p {
+    font-size: 16px;
+  }
+}
