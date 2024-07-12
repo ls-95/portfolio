@@ -45,3 +45,20 @@
 .Projects img {
   margin-left: 0;
 }
+
+@media (max-width: 900px) {
+  .Projects {
+    padding: 20px;
+  }
+  .Projects h2 {
+    text-align: center;
+  }
+
+  .Projects .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 50px 0 20px 0;
+    column-gap: 30px;
+    row-gap: 35px;
+  }
+}
