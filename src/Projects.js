@@ -1,4 +1,5 @@
 import "./Projects.css";
+import DisplayedProjects from "./DisplayedProjects";
 
 export default function Projects() {
   return (
@@ -32,14 +33,7 @@ export default function Projects() {
         click on the buttons to access each project and explore its
         functionalities in detail.
       </p>
-      <div className="container">
-        <div className="project-box"></div>
-        <div className="project-box"></div>
-        <div className="project-box"></div>
-        <div className="project-box"></div>
-        <div className="project-box"></div>
-        <div className="project-box"></div>
-      </div>
+      <DisplayedProjects />
     </div>
   );
 }

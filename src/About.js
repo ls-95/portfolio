@@ -8,12 +8,18 @@ export default function Header() {
         <h2>About me</h2>
         <p>
           I am passionate about the outdoors, with a particular love for hiking
-          and knitting. Additionally, I am bilingual in both English and French.
-          I have had the enriching experience of living in Brighton, England,
+          and knitting. Additionally,{" "}
+          <span className="Yellow">
+            I am bilingual in both English and French
+          </span>
+          . I have had the enriching experience of living in Brighton, England,
           for 10 years, and in the south of France for 11 years, which has
           provided me with a deep cultural understanding and proficiency in both
-          languages. I am currently expanding my linguistic skills by learning
-          Swedish.
+          languages.{" "}
+          <span className="Yellow">
+            I am currently expanding my linguistic skills by learning Swedish
+          </span>
+          .
         </p>
         <br />
         <p>
@@ -33,11 +39,12 @@ export default function Header() {
           opportunity to rethink my career. Through a support service at the
           unemployment centre, I connected with a professional who was dedicated
           to helping me uncover a fulfilling career path. Her guidance was
-          invaluable, and after many months,{" "}
+          invaluable, and after many months, I discovered my passion for
+          front-end development .{" "}
           <span className="Yellow">
-            I discovered my passion for front-end development
+            Now, I am excited to pursue this new and exciting career
           </span>
-          . Now, I am excited to pursue this new and exciting career.
+          .
         </p>
       </div>
       <div className="about-section">
