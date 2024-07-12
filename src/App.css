@@ -9,6 +9,7 @@ h1,
 h2,
 h3 {
   font-family: "Staatliches", sans-serif;
+  letter-spacing: 1px;
 }
 
 h2 {
@@ -20,6 +21,15 @@ p {
   font-size: 16px;
   margin: 0;
   line-height: 1.5;
+  font-weight: 400;
+  text-align: justify;
+  width: 100%;
+}
+
+strong {
+  font-family: "Staatliches", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
 
 .App {
@@ -39,10 +49,18 @@ p {
   background-color: #e5e5e5;
 }
 
-span {
+.projects-section {
+  background-color: white;
+}
+
+.Red {
   color: #ff0000;
-  opacity: 0.6;
+  opacity: 0.7;
   font-weight: bold;
+}
+
+.Yellow {
+  background-color: #fdfd96;
 }
 
 @media (max-width: 992px) {
