@@ -4,7 +4,6 @@ import Homepage from "./Homepage";
 import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
-import Footer from "./Footer";
 
 export default function App() {
   return (
@@ -22,12 +21,11 @@ export default function App() {
         <section className="projects-section">
           <Projects />
         </section>
+      </main>
+      <footer>
         <section className="contact-section">
           <Contact />
         </section>
-      </main>
-      <footer>
-        <Footer />
       </footer>
     </div>
   );

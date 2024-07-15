@@ -29,10 +29,10 @@ export default function Header() {
         </p>
         <br />
         <p>
-          <span className="Red">
+          <strong>
             A brief overview of my inspiring journey to becoming a front-end
             developer:
-          </span>
+          </strong>
         </p>
         <p>
           I am a 29-year-old woman from France who has taken an inspiring
