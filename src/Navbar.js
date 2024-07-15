@@ -10,12 +10,12 @@ export default function Navbar() {
 
   return (
     <div className={`topnav ${isResponsive ? "responsive" : ""}`} id="myTopnav">
-      <a href="#home" className="active">
+      <a href="#home" className="active brand">
         Laetitia Saunders
       </a>
-      <a href="#about">Contact</a>
+      <a href="#about">About</a>
       <a href="#projects">Projects</a>
-      <a href="#contact">About</a>
+      <a href="#contact">Contact</a>
       <button className="icon" onClick={myFunction}>
         <i className="fa fa-bars"></i>
       </button>
