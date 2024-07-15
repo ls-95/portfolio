@@ -7,6 +7,12 @@ export default function Header() {
       <div className="about-section">
         <h2>About me</h2>
         <p>
+          My name is Laetitia. As it is a French name, it may be challenging to
+          pronounce for those unfamiliar with it, particularly because the
+          pronunciation differs from its spelling. The English pronunciation is
+          similar to 'Latisha,' while the French pronunciation is 'Létisia.'
+        </p>
+        <p>
           I am passionate about the outdoors, with a particular love for hiking
           and knitting. Additionally,{" "}
           <span className="Yellow">

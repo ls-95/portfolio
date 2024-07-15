@@ -21,6 +21,14 @@
   border-radius: 6px;
 }
 
+.About .Red {
+  opacity: 1;
+}
+
+.About .Yellow {
+  color: black;
+}
+
 .About .about-section {
   margin-bottom: 60px;
 }
@@ -30,8 +38,8 @@
   font-size: 16px;
   padding: 10px 20px;
   border-radius: 50px;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   margin-top: 20px;
   text-decoration: none;
   letter-spacing: 1px;
