@@ -46,8 +46,7 @@ strong {
 }
 
 .about-section {
-  background-color: black;
-  color: white;
+  background-color: #e5e5e5;
 }
 
 .projects-section {
@@ -56,7 +55,7 @@ strong {
 
 .Red {
   color: #ff0000;
-  opacity: 0.9;
+  opacity: 0.7;
   font-weight: bold;
 }
 
