@@ -1,8 +1,6 @@
 .About {
   max-width: 1200px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr;
   padding: 50px 20px 20px 20px;
 }
 
