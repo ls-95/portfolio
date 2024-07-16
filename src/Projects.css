@@ -31,11 +31,11 @@
   border: 3px solid black;
 }
 
-.projects-paragraph {
+.ProjectsParagraph {
   padding-top: 30px;
 }
 
-.Projects .container {
+.Projects .Container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 50px 0 0 0;
@@ -56,7 +56,7 @@
     text-align: center;
   }
 
-  .Projects .container {
+  .Projects .Container {
     display: grid;
     grid-template-columns: 1fr;
     padding: 50px 0 20px 0;

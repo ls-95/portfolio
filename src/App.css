@@ -45,15 +45,15 @@ strong {
   z-index: 1000;
 }
 
-.about-section {
+.AboutSection {
   background-color: #e5e5e5;
 }
 
-.projects-section {
+.ProjectsSection {
   background-color: white;
 }
 
-.contact-section {
+.ContactSection {
   background-color: #e5e5e5;
 }
 
@@ -65,7 +65,4 @@ strong {
 
 .Yellow {
   background-color: #fdfd96;
-}
-
-@media (max-width: 992px) {
 }

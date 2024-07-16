@@ -22,12 +22,12 @@
   font-size: 16px;
 }
 
-.container {
+.Container {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.container img {
+.Container img {
   width: 100%;
   height: auto;
   border-radius: 15px;
@@ -44,7 +44,7 @@
     display: none;
   }
 
-  .container {
+  .Container {
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
@@ -52,7 +52,7 @@
 }
 
 @media (max-width: 990px) {
-  .container img {
+  .Container img {
     width: 95%;
   }
 

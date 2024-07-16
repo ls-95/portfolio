@@ -4,8 +4,8 @@ import Photo from "./images/laetitiasaunderspaintingphoto.jpg";
 export default function Homepage() {
   return (
     <div className="Homepage" id="Homepage">
-      <div className="container">
-        <div className="homepage-section">
+      <div className="Container">
+        <div className="HomepageSection">
           <h1>Junior Front-End- Developer</h1>
           <h3>
             Hi, I'm <span className="Red">Laetitia</span>!
@@ -31,7 +31,7 @@ export default function Homepage() {
             website was designed and coded by me.
           </p>
         </div>
-        <div className="homepage-section">
+        <div className="HomepageSection">
           <img src={Photo} alt="Artistic portrait of Laetitia" />
         </div>
       </div>

@@ -28,7 +28,7 @@ export default function Projects() {
       <a href="https://github.com/ls-95" target="_blank" rel="noreferrer">
         GitHub
       </a>
-      <p className="projects-paragraph">
+      <p className="ProjectsParagraph">
         Presented below are select projects that I've developed. Feel free to
         click on the buttons to access each project and explore its
         functionalities in detail.

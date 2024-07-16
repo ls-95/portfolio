@@ -51,10 +51,10 @@ export default function DisplayedProjects() {
     },
   ];
   return (
-    <div className="container">
+    <div className="Container">
       {projects.map(function (project, index) {
         return (
-          <div className="project-box" key={index}>
+          <div className="ProjectBox" key={index}>
             <img src={project.imagesource} alt={project.imagealt} />
             <h3>{project.title}</h3>
             <p>{project.text}</p>
