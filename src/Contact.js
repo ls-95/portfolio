@@ -23,7 +23,14 @@ export default function Contact() {
           </a>
         </p>
         <p>
-          <strong>LinkedIn</strong>: to be added
+          <strong>LinkedIn</strong>:{" "}
+          <a
+            href="https://www.linkedin.com/in/laetitia-saunders95/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            My profile
+          </a>
         </p>
       </div>
     </div>
