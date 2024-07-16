@@ -1,24 +1,13 @@
-import { useState } from "react";
-import "./Navbar.css";
+import DesktopNavigation from "./DesktopNavigation";
+import MobileNavigation from "./MobileNavigation";
 
-export default function Navbar() {
-  const [isResponsive, setIsResponsive] = useState(false);
-
-  const myFunction = () => {
-    setIsResponsive(!isResponsive);
-  };
-
+const NavBar = () => {
   return (
-    <div className={`topnav ${isResponsive ? "responsive" : ""}`} id="myTopnav">
-      <a href="#home" className="active brand">
-        Laetitia Saunders
-      </a>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-      <button className="icon" onClick={myFunction}>
-        <i className="fa fa-bars"></i>
-      </button>
+    <div>
+      <DesktopNavigation />
+      <MobileNavigation />
     </div>
   );
-}
+};
+
+export default NavBar;
