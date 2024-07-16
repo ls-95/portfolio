@@ -12,18 +12,18 @@ export default function App() {
         <Navbar />
       </header>
       <main className="App-main">
-        <section className="homepage-section">
+        <section className="homepage-section" id="home">
           <Homepage />
         </section>
-        <section className="about-section">
+        <section className="about-section" id="about">
           <About />
         </section>
-        <section className="projects-section">
+        <section className="projects-section" id="projects">
           <Projects />
         </section>
       </main>
       <footer>
-        <section className="contact-section">
+        <section className="contact-section" id="contact">
           <Contact />
         </section>
       </footer>
