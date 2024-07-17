@@ -18,16 +18,22 @@ export default function Projects() {
         action, providing a comprehensive view of my work and technical skills.
       </p>
       <br />
-      <a
-        href="https://app.netlify.com/teams/ls-95/overview"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Netlify
-      </a>
-      <a href="https://github.com/ls-95" target="_blank" rel="noreferrer">
-        GitHub
-      </a>
+      <div className="Box">
+        <div className="BoxSection">
+          <a
+            href="https://app.netlify.com/teams/ls-95/overview"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
+          </a>
+        </div>
+        <div className="BoxSection">
+          <a href="https://github.com/ls-95" target="_blank" rel="noreferrer">
+            GitHub
+          </a>
+        </div>
+      </div>
       <p className="ProjectsParagraph">
         Presented below are select projects that I've developed. Feel free to
         click on the buttons to access each project and explore its

@@ -31,6 +31,12 @@
   border: 3px solid black;
 }
 
+.Projects .Box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 10fr;
+  text-align: center;
+}
+
 .ProjectsParagraph {
   padding-top: 30px;
 }
@@ -53,6 +59,12 @@
     padding: 20px;
   }
   .Projects h2 {
+    text-align: center;
+  }
+
+  .Projects .Box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     text-align: center;
   }
 
