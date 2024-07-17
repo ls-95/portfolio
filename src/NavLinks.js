@@ -15,18 +15,10 @@ const NavLinks = ({ isClicked, closeMenu }) => {
   return (
     <nav className="NavLinks">
       <ul>
-        <li onClick={() => handleClick("home")}>
-          <a className="links">Homepage</a>
-        </li>
-        <li onClick={() => handleClick("about")}>
-          <a className="links">About</a>
-        </li>
-        <li onClick={() => handleClick("projects")}>
-          <a className="links">Projects</a>
-        </li>
-        <li onClick={() => handleClick("contact")}>
-          <a className="links">Contact</a>
-        </li>
+        <li onClick={() => handleClick("home")}>Homepage</li>
+        <li onClick={() => handleClick("about")}>About</li>
+        <li onClick={() => handleClick("projects")}>Projects</li>
+        <li onClick={() => handleClick("contact")}>Contact</li>
       </ul>
     </nav>
   );
