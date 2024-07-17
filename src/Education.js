@@ -17,9 +17,9 @@ export default function Education() {
         <span className="Yellow">
           I have successfully acquired skills in <strong>HTML</strong>,{" "}
           <strong>CSS</strong>, <strong>JavaScript</strong>,{" "}
-          <strong>Bootstrap</strong>, <strong>API Integration</strong>,{" "}
-          <strong>AI API Integration</strong>, <strong>Responsiveness</strong>,
-          and <strong>React</strong>
+          <strong>Bootstrap</strong>, <strong>GIT</strong>,{" "}
+          <strong>API Integration</strong>, <strong>AI API Integration</strong>,{" "}
+          <strong>Responsiveness</strong>, and <strong>React</strong>
         </span>
         .
       </p>
