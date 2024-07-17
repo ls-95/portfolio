@@ -4,7 +4,7 @@ import Education from "./Education";
 export default function Header() {
   return (
     <div className="About" id="About">
-      <div className="AboutSection">
+      <div className="AboutSections">
         <h2>About me</h2>
         <p>
           My name is Laetitia. As it is a French name, it may be challenging to
@@ -53,7 +53,7 @@ export default function Header() {
           .
         </p>
       </div>
-      <div className="AboutSection">
+      <div className="AboutSections">
         <Education />
       </div>
     </div>

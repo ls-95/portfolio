@@ -58,7 +58,7 @@ a:hover {
 }
 
 .AboutSection {
-  background-color: #e5e5e5;
+  background-color: rgba(173, 216, 230, 0.3);
 }
 
 .ProjectsSection {
@@ -66,7 +66,7 @@ a:hover {
 }
 
 .ContactSection {
-  background-color: #e5e5e5;
+  background-color: rgba(173, 216, 230, 0.3);
 }
 
 .Red {
