@@ -11,6 +11,11 @@ nav {
   height: 8vh;
 }
 
+.NavLinks .links:hover {
+  cursor: pointer;
+  color: white;
+}
+
 nav ul {
   display: flex;
   flex-direction: row;
