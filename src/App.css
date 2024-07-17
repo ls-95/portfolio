@@ -32,6 +32,18 @@ strong {
   letter-spacing: 1px;
 }
 
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
 .App {
   display: flex;
   flex-direction: column;
