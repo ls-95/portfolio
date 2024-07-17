@@ -32,6 +32,12 @@ export default function Contact() {
             My profile
           </a>
         </p>
+        <p>
+          <strong>Resume</strong>:{" "}
+          <a href="./files/Resume.pdf" target="_blank" rel="noreferrer">
+            PDF file
+          </a>
+        </p>
       </div>
     </div>
   );
